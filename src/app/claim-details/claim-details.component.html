@@ -1,0 +1,20 @@
+<app-header></app-header>
+<div class="claim_detail" *ngFor="let userDetail of userDetails, let index = index">
+    <div class="cliam_title">
+        <div>Patient Name</div>
+        <div>Claim Number</div>
+        <div>Date Submitted</div>
+        <div>Document Status</div>
+    </div>
+    <div class="user_information">
+        <div class="arrow_img" (click)="gotoHome(index)"></div>
+        <div>{{userDetail.patientName}}</div>
+        <div>{{userDetail.claimNumber}}</div>
+        <div>{{userDetail.dateSubmited}}</div>
+        <div>{{userDetail.status}}</div>
+       
+    </div>
+ 
+</div>
+
+

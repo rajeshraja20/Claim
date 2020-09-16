@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    font-weight: bold;
+}
+
+header{
+    border-bottom: 1px solid #222222;
+    padding: 20px 10px 5px 20px;
+}
+
+.claim_detail{
+    width: 90%;
+    margin: 0 auto;
+    background: #eee;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 100px;
+    margin: 10px auto;
+    line-height: 25px;
+}
+.cliam_title{
+    width: 40%;
+    float: left;
+}
+.user_information{
+    width: 60%;
+    float: left;
+    font-weight: normal;
+    color: #333;
+}
+
+.arrow_img{
+    background: url(assets/arrow.png);
+    width: 30px;
+    height: 35px;
+    float: right;
+    position: relative;
+    top: 30px;
+}
+
+
